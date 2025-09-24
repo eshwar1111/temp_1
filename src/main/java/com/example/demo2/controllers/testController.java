@@ -10,7 +10,7 @@ public class testController {
 
     @GetMapping("/test")
     public String getMethodName() {
-        return "working";
+        return "workingt1";
     }
 
     @GetMapping("/test2")
