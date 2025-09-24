@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 
 
+
 @RestController
 public class testController {
 
@@ -11,6 +12,12 @@ public class testController {
     public String getMethodName() {
         return "working";
     }
+
+    @GetMapping("/test2")
+    public String getMethodName1() {
+        return "working2";
+    }
+    
     
     
 }
